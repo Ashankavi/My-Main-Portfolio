@@ -10,7 +10,7 @@ import Web from "../Components/Assets//web.png"
 
 const Service = () => {
   return (
-    <div className="w-full h-auto my-8 bg-center bg-cover border-black border-y-4" style={{backgroundImage: `url(${ServiceBack})`}}>
+    <div className="w-full h-auto p-8 my-8 bg-center bg-cover border-black border-y-4" style={{backgroundImage: `url(${ServiceBack})`}}>
         <div>
         <motion.h1 
               whileInView={{opacity: 1, y:0}}

@@ -1,4 +1,5 @@
 import React, {useState} from  'react'
+import { motion } from "framer-motion"
 import {AiOutlineClose, AiOutlineMenu} from 'react-icons/ai'
 
 import Logo from "../Components/Assets/logo 2.png"
@@ -27,7 +28,7 @@ const Navbar = () => {
             
         </div>
         <div className={nav ? 'fixed left-0 top-0 w-[30%] h-full border-r border-r-gray-900 bg-[#72e2ff] ease-in-out duration-500' : 'fixed left-[-100%]'}>
-        <img className='h-[50px] ml-4' src={Logo} /> 
+        <img className='h-[60px] m-8' src={Logo} /> 
         <h1 className='w-full text-3xl font-bold text-[#00df9a] m-4'> </h1>
 
             <ul className='p-4 tracking-wide uppercase font-londrina'>
@@ -37,8 +38,6 @@ const Navbar = () => {
             <li className='p-4 border-b border-black'>SKILLS</li>
             <li className='p-4 border-b border-black'>PROJECT</li>
             <li className='p-4 border-b border-black'>CONTACT</li>
-
-            <li className='p-4'>Contact</li>
             </ul>
         </div>
     </div>

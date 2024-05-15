@@ -22,13 +22,13 @@ const Contact = () => {
             transition={{duration:0.5}}
             className='pt-6 ml-10 text-3xl uppercase font-londrina' >Contact</motion.h1>
     <div className='flex flex-row flex-wrap'>
-    <div className='flex flex-col grow h-[100vh] w-[500px] items-center justify-center'>
+    <div className='flex flex-col grow h-[100vh] w-[500px] items-center justify-center '>
 
     <motion.div 
         whileInView={{opacity: 1, x:0}}
         initial={{ opacity: 0, x: -100}}
         transition={{duration:0.5}}>
-      <p className=" -ml-[200px] text-[30px] text-[#ffffff] font-londrina tracking-wider hover:text-[#79e3ff]">Just Say Hello</p>
+      <p className="  text-[30px] text-[#ffffff] font-londrina tracking-wider hover:text-[#79e3ff]">Just Say Hello</p>
       </motion.div>
 
       <motion.div 
@@ -69,11 +69,11 @@ const Contact = () => {
         whileInView={{opacity: 1, x:0}}
         initial={{ opacity: 0, x: 100}}
         transition={{duration:0.5}}
-         className='flex flex-col grow h-[100vh] w-[500px] items-center justify-center font-londrina tracking-wider'>
+         className='flex flex-col justify-center p-6 tracking-wide font-londrina '>
 
 
-      <p className=" text-[30px] -ml-[200px] font-semibold text-[#ffffff]   hover:text-[#79e3ff]">Contact info</p>
-        <p className=" text-[20px] mt-[10px] ml-[120px] text-[#ffffff] "> ipsum dolor sit amet, consectetur adipiscing elit.<br/> ligula nulla  tincidunt id faucibus sed suscipit feugiat.</p>
+      <p className=" text-[30px]  font-semibold text-[#ffffff]   hover:text-[#79e3ff]">Contact info</p>
+        <p className=" text-[20px]   text-[#ffffff] "> ipsum dolor sit amet, consectetur adipiscing elit. ligula nulla  tincidunt id faucibus sed suscipit feugiat.</p>
 
         <div className="w-full max-w-md p-6 bg-[#e093ff00] rounded-lg  max-auto ">
         <img className=" w-[90px] my-[20px] " src={Email}/>       
@@ -81,7 +81,7 @@ const Contact = () => {
         <img className=" w-[90px] my-[20px]" src={Location}/>
         </div>
         
-        <div className="w-full max-w-md ml-[250px] -mt-[350px] p-6 bg-[#e093ff00] rounded-lg ">
+        <div className="w-full max-w-md ml-[120px] -mt-[380px] p-6 bg-[#e093ff00] rounded-lg ">
         <p className=" text-[25px] font-semibold text-[#ffffff]   hover:text-[#79e3ff]">Email</p>
         <p className=" text-[#ffffff] leading-relaxed mb-8" >uhashankavi@gmail.com</p>
 
@@ -92,7 +92,7 @@ const Contact = () => {
         <p className=" text-[#ffffff] leading-relaxed" >No 300, Citrus Junction <br />Narawala, Poddala</p>
         </div>
 
-        <div className="">
+        <div className="mb-8 ">
         <p className="text-[20px] font-semibold text-[#ffffff] mb-[15px]">Visit my social profile and get connected</p>
         <img className="hover:shadow-xl w-[70px] float-left mx-2" src={LinkD}/>   
         <img className="hover:shadow-xl w-[70px] float-left" src={Github}/>   

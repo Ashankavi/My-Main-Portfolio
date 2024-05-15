@@ -45,7 +45,7 @@ const Skills = () => {
                   whileInView={{opacity: 1, x:0}}
                   initial={{ opacity: 0, x: -100}}
                   transition={{duration:0.5}}
-        className='flex flex-row gap-2 p-5 max-w-auto'>
+        className='flex flex-wrap gap-2 p-5 mx-8 max-w-auto'>
             <img className=' w-[100px] mx-auto my-4' src={Java} /> 
             <img className=' w-[100px] mx-auto my-4' src={CSharp} /> 
             <img className=' w-[100px] mx-auto my-4' src={ReactJS} /> 

@@ -6,17 +6,17 @@ import EduBack2 from "../Components/Assets//educationback2.png"
 
 const Education = () => {
   return (
-    <div className="w-full max-h-[100vh] bg-center bg-cover border-black border-y-4  mt-40" style={{backgroundImage: `url(${EduBack1})`}}>
-        <div className='-mt-20 bg-cover max-w-auto mx-8 border-4 border-black rounded-[29px] mb-8' style={{backgroundImage: `url(${EduBack2})`}}>
+    <div className="w-full max-h-[100vh] bg-center bg-cover border-black border-y-4 mb-8 mt-40" style={{backgroundImage: `url(${EduBack1})`}}>
+        <div className='-mt-20 bg-cover max-w-auto mx-8 border-4 border-black rounded-[29px] mb-8 p-8' style={{backgroundImage: `url(${EduBack2})`}}>
         <motion.h1 
               whileInView={{opacity: 1, y:0}}
               initial={{ opacity: 0, y: -100}}
               transition={{duration:0.5}}
-               className='pt-6 ml-10 text-3xl uppercase font-londrina' >Education</motion.h1>
+               className='pt-6 mb-8 ml-10 text-3xl uppercase font-londrina' >Education</motion.h1>
         {/* <img className='bg-cover max-w-auto mx-8 border-4 border-black rounded-[29px] mb-8' src={EduBack2}/>  */}
 
-        <div className='flex items-center justify-center px-8 text-center font-londrina '>
-        <div className='grid grid-cols-1 gap-[50px] md:grid-cols-2 lg:grid-cols-2'>
+        <div className='flex items-center justify-center px-8 mb-8 text-center font-londrina'>
+        <div className='grid grid-cols-1 gap-[50px] md:grid-cols-2 lg:grid-cols-2 mb-8'>
         <motion.div 
                   whileInView={{opacity: 1, x:0}}
                   initial={{ opacity: 0, x: -100}}
@@ -36,7 +36,7 @@ const Education = () => {
                   whileInView={{opacity: 1, x:0}}
                   initial={{ opacity: 0, x: 100}}
                   transition={{duration:0.5}}
-                   className='flex flex-col p-5'>
+                   className='flex flex-col p-5 mb-8'>
             <h1 className='text-3xl '>2020 Present</h1>
             <p>G.C.E. Advanced Level (2020) <br />Vidyaloka College, <br />Galle</p>
 
