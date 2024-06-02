@@ -72,8 +72,8 @@ const Contact = () => {
          className='flex flex-col justify-center p-6 tracking-wide font-londrina '>
 
 
-      <p className=" text-[30px]  font-semibold text-[#ffffff]   hover:text-[#79e3ff]">Contact info</p>
-        <p className=" text-[20px]   text-[#ffffff] "> ipsum dolor sit amet, consectetur adipiscing elit. ligula nulla  tincidunt id faucibus sed suscipit feugiat.</p>
+      <p className=" text-[30px]  font-semibold text-[#ffffff]  hover:text-[#79e3ff]">Contact info</p>
+        <p className=" text-[20px]  text-[#ffffff] "> ipsum dolor sit amet, consectetur adipiscing elit. ligula nulla  tincidunt id <br />faucibus sed suscipit feugiat.</p>
 
         <div className="w-full max-w-md p-6 bg-[#e093ff00] rounded-lg  max-auto ">
         <img className=" w-[90px] my-[20px] " src={Email}/>       
@@ -102,8 +102,7 @@ const Contact = () => {
       </motion.div>
       
       </div>
-    </div>
-      
+    </div>      
     </div>
   )
 }

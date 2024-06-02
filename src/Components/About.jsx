@@ -34,9 +34,9 @@ const About = () => {
                   transition={{duration:0.5}} 
                   className='flex flex-col justify-center p-4 tracking-wide font-londrina'>
             <h1 className='py-4 text-6xl text-black md:text-8xl sm:text-5xl '>Hello</h1>
-            <h1 className='py-4 text-3xl leading-8 text-white uppercase md:text-3xl sm:text-3xl text-shadow'>I’m creative Front-End Web Developer & UI UX  Designer, I look forward to improving my skills at every turn. </h1>  
+            <h1 className='py-4 text-2xl leading-8 text-white uppercase md:text-3xl sm:text-2xl text-shadow'>I’m creative Front-End Web Developer & UI UX  Designer, I look forward to improving my skills at every turn. </h1>  
 
-            <p className=" md:text-2xl sm:text-4xl  text-[#000000]  tracking-wide leading-8 mr-[60px] font-londrina">Age  :  23 < br/> Nationality : Sri Lanka <br /> Freelance : Available <br />Address : Galle, Poddala <br />Phone : +94 77 565 5031  <br />Email : uhashankavi@gmail.com <br />Language : English, Sinhala</p>
+            <p className=" md:text-2xl sm:text-2xl  text-[#000000]  tracking-wide leading-8 mr-[60px] font-londrina">Age  :  23 < br/> Nationality : Sri Lanka <br /> Freelance : Available <br />Address : Galle, Poddala <br />Phone : +94 77 565 5031  <br />Email : uhashankavi@gmail.com <br />Language : English, Sinhala</p>
             {/* <p className=" text-[15px] ml-[120px] -mt-[360px] text-[#000000] font-black tracking-wide leading-10  font-londrina ">: <br/> : <br /> : <br /> : <br /><br />: <br /><br />: <br />:</p>
             <p className="  text-[20px] ml-[180px] -mt-[360px] text-[#000000]  tracking-wide leading-10  font-londrina ">23 <br/> Sri Lanka <br /> Available <br />No 300, Citrus Junction<br /> Narawala, Poddala<br />+94 77 565 5031 <br />+94 70 181 1431 <br />uhashankavi@gmail.com <br />English, Sinhala</p> */}
 

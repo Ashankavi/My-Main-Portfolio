@@ -6,7 +6,7 @@ import EduBack2 from "../Components/Assets//educationback2.png"
 
 const Education = () => {
   return (
-    <div className="w-full max-h-[100vh] bg-center bg-cover border-black border-y-4 mb-8 mt-40" style={{backgroundImage: `url(${EduBack1})`}}>
+    <div className="w-full mt-40 mb-8 bg-center bg-cover border-black max-h-auto border-y-4" style={{backgroundImage: `url(${EduBack1})`}}>
         <div className='-mt-20 bg-cover max-w-auto mx-8 border-4 border-black rounded-[29px] mb-8 p-8' style={{backgroundImage: `url(${EduBack2})`}}>
         <motion.h1 
               whileInView={{opacity: 1, y:0}}
